@@ -1,0 +1,111 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  font-family: 'Lato', Verdana;
+  font-size: 100%;
+  background: #fff;
+}
+.wrap
+{
+  margin: 0 auto;
+  width: 70%;  /* отступы относительно окна браузера */
+}
+.header{
+  padding: 1.3em 0em; /* поля вокруг текста */
+}
+.logo{
+  float: left; /* обтекание логотипа */
+}
+.logo a {
+  display: block; /* переопределение в блочный  */
+}
+.nav {
+  float: right;   /* обтекание логотипа */
+  margin-top: 0.82em;
+}
+.nav > ul > li {
+  display:inline-block;  /* переопределение в строчно-блочный  */
+}
+.nav > ul > li.active a{
+  background: #d0a5a5;
+  color: #ffffff;
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #444;
+  -webkit-transition: 0.9s; /* плавный переход  */
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+  color: #fff;
+  background: #d0a5a5;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 60px 0px;
+}
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+
+
+.clearfix:after,
+.clearfix:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+    color: #d0a5a5;
+    width: 50px;
+    height: 50px;
+    margin: 25px 20px 2px 2px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #d0a5a5;
+    float: left;
+}
+.ico-contact {
+    line-height: 1.9 !important;
+}
+.descript-wrapper {
+    float: left;
+    margin-bottom: 20px;
+}
+.aio-icon-title {
+    font-size: 18px;
+    color: #d0a5a5;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .descript-wrapper,
+    .ico-wrap {
+      float: none;
+      text-align: center;
+    }
+    .ico-wrap {
+      margin: 0 auto 15px auto;
+    }
+}
+
